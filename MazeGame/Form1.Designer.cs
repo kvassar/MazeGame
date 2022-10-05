@@ -155,6 +155,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(574, 539);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseLeave += new System.EventHandler(this.Wall);
             // 
             // FinishLabel
             // 
@@ -209,7 +210,7 @@
             // label52
             // 
             this.label52.BackColor = System.Drawing.Color.LightSlateGray;
-            this.label52.Location = new System.Drawing.Point(483, 440);
+            this.label52.Location = new System.Drawing.Point(484, 440);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(19, 58);
             this.label52.TabIndex = 51;
